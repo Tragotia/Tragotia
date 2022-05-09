@@ -1,0 +1,17 @@
+prompt> git status
+prompt> git add about.html
+prompt> commit -M "add the skeleton of an about page"
+prompt> git checkout master
+prompt> git checkout user ID's
+prompt> git commit -m "add javascript to list" -a
+prompt>  sudo port install subversion-perlbinding
+prompt> cd ..
+prompt> svnadmin create ./tmpsvn
+prompt> svnadmin load ./tmpsvn < /path/to/cvs-rcs-files/svndump
+prompt> sudo cpan install SVN::core 
+prompt> git log
+prompt> git fetch
+prompt> git diff
+prompt> git blame <some files>
+// blame-file
+prompt> git log 9v441z
