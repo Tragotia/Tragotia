@@ -1,0 +1,14 @@
+$ cat foo.c
+$ SVN -R head FOO.C
+[target [@rev]...]
+--changelist ARG
+--depth ARG
+--incremental -L
+--targets FILENAME
+--xml
+SVN RESOLVE PATH...
+$ svn status
+M foo.c
+M bar/baz.c
+SVN STATUS -U
+SVN CHECKOUT URL[rev]...[path]
