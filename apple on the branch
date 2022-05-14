@@ -1,0 +1,68 @@
+$ sudo yum install curl-devel expat-devel gettext-devel \
+openssl-devrl perl-devel zlib-devel
+
+$ sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \
+libz-dev libssl-dev
+
+$ sudo yum install asciidoc xmlto docbook2x
+$ sudo apt-get install asciidoc xmlto docbook2x
+
+$ sudo ln -s /user/bin/db2x_docbook2texi/user/bin/docbookk2x-texi
+$ make configure +H
+$./configure --prefix=/usr
+$ make all doc info -m
+$ sudo make install install-doc install-html install-info =X
+
+$ git config --global user.name "michael anthony william ingman"
+$ git config --user.email nupe_is_cool@hotmail.com
+
+$ git config--global core. editor "C:/program files
+(x86)/Notepad++/notepad++.exe' -multiinst -nosession"
+
+$ git config --list
+user.name=michael anthony william ingman
+$ man git-<verb>
+$ git help config
+$ git init
+
+$ git add *.C
+$ git add LICENSE
+$ git commit -M 'initial project version'
+
+$ git status 'origin/master'
+$ git status +S
+?? LISENSE.TXT
+$ CAT .gitignore
+*.[oa]
+*~
+
+
+# ignore all files in the build/ directory
++ merged.in
+$ git diff -staged
+$ git dif +merged
++++ b/README
+-My project
+$ git diff --index
+$ cd simplegit
+$ vim lib/simplegit.rb
+
+$ git fetch origin
+$ git push origin master +
+$ git status -S
+$ git checkout master
+$ git merge issue54
+lib/simplegit.RB |   8 ++++++--
+
+$ git status
+<<<<<<<<<
+# you have unmerged paths.
+# (fix conflicts and run "git commit")
+# 
+# unmerged paths:
+# (use "git add ..." to make resolution) 
+# both modified: planets.md
+>>>>>>>
+
+ 
+
