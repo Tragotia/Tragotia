@@ -1,0 +1,68 @@
+$ git diff --staged
+diff --git a/readme b/README
+new file mode 100644
+index 0000000.03902a1
+-- /dev/null
++++ b/README
+@@ -,0 +1 @@
++MY PROJECT
+
+
+$ git mv file_from file_to
+$ git mv README.md README
+$ git status 
+
+the number of planets are <<<<<<< HEAD
+nine
+=======
+seven
+>>>>>>> branch-a
+
+the number of planets are
+NINE, or eight, depending on who you ask.
+
+CONFLICT (MODIFY/DELETE): README.md deleted in HEAD and modified in blanch-b. Version branch-b of README.md left in tree.
+automatic merge failed; figs conflicts and then commit the result.
+
+git status
+
+# On branch branch-c
+
+# You have unmerged paths.
+
+# (fix conflict and run "git commit")
+
+#
+
+# Unmerged paths:
+
+#	(use "git add/rm ..." as appropriate to mark
+resolution)
+
+# deleted by us:	README.md
+
+#
+
+No changes added to commit (use "git add" and/or " git commit -a")
+
+
+
+
+$ git Intuit/flow/flowers
+$ git stagged/README.md; "show all"
+
+$ git README.md
+README.md: needs merge
+Rm 'README.md'
+
+$ git | conflicts: 
+README.md
+
+[submodule "DbConnector"]
+	path = DbConnector
+URL = https://github.com/Tragotia/Tragotia
+
+# private attr_reader :x
+
+svn log -q | awk -F '|''/^r/ {sub("^ ", "", $2); sub(" $"", $2); print $2 = "$2" <"$2">"}' | 
+sort-u > authors-transform.txt
